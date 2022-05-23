@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.0.0" clr-version="4.0.30319.42000" start-time="2022-05-19 15:27:15Z" end-time="2022-05-19 15:27:16Z" duration="0.489514">
+  <command-line><![CDATA["C:\Users\i.khamadiev\.nuget\packages\nunit.consolerunner\3.15.0\tools\nunit3-console.exe" TestProject3.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1" name="TestProject3.dll" fullname="C:\Users\i.khamadiev\RiderProjects\TestProject3\TestProject3\TestProject3.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="File not found: C:\Users\i.khamadiev\RiderProjects\TestProject3\TestProject3\TestProject3.dll" />
+    </properties>
+    <reason>
+      <message>File not found: C:\Users\i.khamadiev\RiderProjects\TestProject3\TestProject3\TestProject3.dll</message>
+    </reason>
+  </test-suite>
+</test-run>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3" engine-version="3.15.0.0" clr-version="4.0.30319.42000" start-time="2022-05-19 15:27:54Z" end-time="2022-05-19 15:28:02Z" duration="8.679900">
+  <command-line><![CDATA["C:\Users\i.khamadiev\.nuget\packages\nunit.consolerunner\3.15.0\tools\nunit3-console.exe" TestProject3.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1002" name="TestProject3.dll" fullname="C:/Users/i.khamadiev/RiderProjects/TestProject3/TestProject3/bin/Debug/net6.0/TestProject3.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-05-19T15:27:54.7818198Z" end-time="2022-05-19T15:28:02.8365513Z" duration="8.054685" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+    <environment framework-version="3.13.2.0" clr-version="6.0.4" os-version="Microsoft Windows 10.0.19042" platform="Win32NT" cwd="C:\Users\i.khamadiev\RiderProjects\TestProject3\TestProject3\bin\Debug\net6.0" machine-name="SOKPO-NB-013" user="i.khamadiev" user-domain="BARS" culture="ru-RU" uiculture="ru-RU" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\i.khamadiev\RiderProjects\TestProject3\TestProject3\bin\Debug\net6.0" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12832" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1003" name="TestProject3" fullname="TestProject3" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-05-19T15:27:54.7863617Z" end-time="2022-05-19T15:28:02.8365387Z" duration="8.050173" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+      <test-suite type="TestFixture" id="1-1000" name="Tests" fullname="TestProject3.Tests" classname="TestProject3.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-05-19T15:27:54.7875380Z" end-time="2022-05-19T15:28:02.8362298Z" duration="8.048688" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <test-case id="1-1001" name="testLogin" fullname="TestProject3.Tests.testLogin" methodname="testLogin" classname="TestProject3.Tests" runstate="Runnable" seed="1740104574" result="Passed" start-time="2022-05-19T15:27:57.1918622Z" end-time="2022-05-19T15:28:02.8331778Z" duration="5.641396" asserts="3">
+          <output><![CDATA[1.Авторизация
+2.Добавление товара в корзину
+3.Переход в корзину
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
